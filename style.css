@@ -1,0 +1,62 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:white;
+    color:black;
+    margin:0;
+    padding:0;
+   
+}
+header{
+    background-color: dodgerblue;
+    color:white;
+    padding:40px;
+    text-align:center;
+}
+header nav a{
+    color:white;
+    text-decoration-line:none ;
+    margin: 10px;
+}
+section{
+    padding: 20px;
+    margin: 20px;
+    background-color:rgb(210, 209, 209);
+    border-radius: 8px;
+}
+h2{
+    text-align: center;
+}
+  
+
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.circular-image img {
+    width: 150px;
+    height: 150px;
+    clip-path: circle();
+    /*border-radius: 50%;*/
+    object-fit: cover;
+}
+.form-link{
+    color:dodgerblue;
+}
+
+
+
+/* Center content in About section */
+.center-content {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color:dodgerblue;
+    color:white;
+    margin-top: 5px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT FORM</title>
+    <link rel="stylesheet" href="styleform.css">
+</head>
+<body>
+    <DIV class="container">
+        <h1><b>CONTACT ME!</b></h1>
+        <p>Please  fill the form to get a response from me.I will try to get back to you as soon as possible!</p>
+        <form action="/action.php" method="post">
+            <div class="form-group">
+                <label for="Name">Name:</label>
+                <br>
+                <input type="text" id="Name" class="Name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <br>
+                <input type="email" name="email" class="email" placeholder="Enter your email"required>
+            </div>
+            <div class="form-group">
+                <label for="gender">Gender:</label>
+                <br>
+                <label>
+                <input type="radio" id="1" name="gender" value="Male" required>Male
+                </label>
+                <label>
+                    <input type="radio" id="2" name="gender" value="Female" required>Female
+                </label>
+                <label>
+                    <input type="radio" id="3" name="gender" value="others" required>Others
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="state">State:</label>
+                <br>
+                <select name="state" id="state" required>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Jammu and Kashmir ">Jammu and Kashmir </option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="West Bengal">West Bengal</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+
+                </select>
+
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="message" id="message" placeholder="Enter your message" rows="7" required></textarea>
+            </div>
+            <button type="submit">SUBMIT</button>
+
+        </form>
+    </DIV>
+</body>
+</html>

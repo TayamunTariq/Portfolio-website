@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: dodgerblue;
+    text-align: center;
+    padding:60px;
+    color:white;
+}
+header nav a{
+    color:white;
+    text-decoration: none;
+    margin:10px;
+
+}
+.center-content{
+    text-align: center;
+
+}
+.circular-image{
+    height:150px;
+    width:150px
+    border-radius: 50%;
+    overflow:hidden;
+}
+.circular-image img{
+    width:150px;
+    height:150px;
+    clip-path:circle();
+    object-fit: cover;
+}
+section{
+    padding:20px;
+    margin:20px;
+    background-color: lightgrey;
+    border-radius: 8px;
+   display: block;
+}
+h2{
+    text-align: center;
+}
+a{
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+    background-color: dodgerblue;
+    color:white;
+    padding:30px;
+    margin-top:5px;
+    font-size:small;
+
+}
+.form-link{
+    color:dodgerblue;
+}
+#courses{
+    margin-left: 30px;
+}
